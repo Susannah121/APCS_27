@@ -1,6 +1,8 @@
 /*
  *	Author:  Susannah Lebsock
  *  Date: 9/3
+ *	Author:  Susannah Lebsock
+ *  Date: 9/7/26
 */
 
 class starter {
@@ -11,9 +13,11 @@ class starter {
  
         // TODO: Construct and declare an int variable named applesPicked and set it to 12
         int applesPicked=12;
+        int applesPicked=12;
  
         // TODO: Construct and declare a double variable named boxWeightLbs and set it to 2.5
         double boxWeight=2.5;
+        double boxWeightLbs=2.5;
  
         System.out.println("Apples picked: " + 12);
         System.out.println("Box weight: " + 2.5);
@@ -29,6 +33,7 @@ class starter {
  
         // TODO: Construct and declare an int variable named totalBaskets that equals
         // applesPicked multiplied by applesPerBasket
+        int totalBaskets=applesPicked*applesPerBasket;
         int totalBaskets=applesPicked*applesPerBasket;
  
         System.out.println("Total baskets: " + applesPicked*applesPerBasket);
@@ -48,6 +53,7 @@ class starter {
         // divides totalCookies by studentsInClass using INTEGER division
         int cookiesPerStudentInt= totalCookies/studentsInClass;
         
+        int cookiesPerStudentInt = totalCookies/studentsInClass;
  
         System.out.println("Cookies per student (int division): " + cookiesPerStudentInt);
         // Expected: Cookies per student (int division): 3
@@ -59,8 +65,9 @@ class starter {
         // e.g. (double) totalCookies or add/multiple by 0.0/1.0
         double cookiesPerStudentDouble=(double)totalCookies/studentsInClass;
         
+        double cookiesPerStudent = (double) totalCookies/studentsInClass;
  
-        System.out.println("Cookies per student (double division): " + cookiesPerStudentDouble);
+        System.out.println("Cookies per student (double division): " + cookiesPerStudent);
         // Expected: Cookies per student (double division): 3.4
 
  
@@ -72,6 +79,7 @@ class starter {
         // TODO: Construct and declare an int variable named leftoverCookies that stores
         // the remainder of totalCookies divided by studentsInClass
         int leftoverCookies=totalCookies/studentsInClass;
+        int leftoverCookies = totalCookies%studentsInClass;
  
         System.out.println("Leftover cookies: " + leftoverCookies);
         // Expected: Leftover cookies: 2
@@ -87,6 +95,7 @@ class starter {
         // applesPicked times pricePerApple
         
         double totalCost=applesPicked*pricePerApple;
+        double totalCost = applesPicked*pricePerApple;
  
         System.out.println("Total cost: $" + totalCost);
         // Expected: Total cost: $4.2
@@ -99,6 +108,7 @@ class starter {
         // the following, following normal order of operations (PEMDAS):
         //     (8 + 2) * 3 - 10 / 2
         int mathResult=(8 + 2) * 3 - 10 / 2;
+        int mathResult = (8 + 2) * 3 - 10 / 2;
 		
         System.out.println("Math result: " + mathResult);
         // Expected: Math result: 25

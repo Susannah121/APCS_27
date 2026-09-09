@@ -1,6 +1,6 @@
 /*
- *	Author:  
- *  Date: 
+ *	Author:  Susannah Lebsock
+ *  Date: 9/5/26
 */
 
 import java.util.Scanner;
