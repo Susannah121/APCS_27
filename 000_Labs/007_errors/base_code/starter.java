@@ -20,7 +20,9 @@ class starter {
 		sum = num1 + num2;
 		
 		System.out.println(sum);
-System.out.println("I now have 0 errors!!!");	
+System.out.println("I now have 0 errors!!!");
+
+
 	}
 			
 }
