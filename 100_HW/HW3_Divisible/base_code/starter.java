@@ -1,6 +1,6 @@
 /*
- *	Author:
- *  Date:
+ *	Author:Susannah Lebsock
+ *  Date: 9/16
  * 	Collaborator: 
 */
 
