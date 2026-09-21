@@ -15,20 +15,17 @@ class starter {
 		String text = sc.nextLine();
 		System.out.println("How old are you?");
 		int age = sc.nextInt();
-		System.out.println("What is you're birthday month?");
+		System.out.println("What month were you born? (1-12)");
 		int month = sc.nextInt();
-		System.out.println("What is you're birthday day?");
+		System.out.println("What day were you born? (1-31)");
 		int day = sc.nextInt();
-		System.out.println("What is you're birthday year?");
+		System.out.println("What year were you born?");
 		int year = sc.nextInt();
-		System.out.println("How much is a buck fifty?");
+		System.out.println("If I have a dollar and two quarters, how much money do I have? (0.0-#)");
 		double money = sc.nextDouble();
 
-		System.out.println(text);
-		System.out.println(age);
-		System.out.println(month);
-		System.out.println(day);
-		System.out.println(year);
-		System.out.println(money);
+		System.out.println("Your name is " + text + " and you were born on " + month + "/" + day + "/" + year + ".");
+		System.out.println("You are " + age + " years old!!!");
+		System.out.println("You have $" + money + " in your wallet.");
 	}
 }
