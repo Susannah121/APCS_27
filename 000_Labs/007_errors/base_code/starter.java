@@ -10,8 +10,8 @@ class starter {
 		String drink =  ("soda");
 		System.out.println("I love " + food + " and " + drink + "!");
 
-		int count;
-		count = 589;
+		
+		int count = 589;
 		System.out.println("count");
 
 		double sum = 0;
